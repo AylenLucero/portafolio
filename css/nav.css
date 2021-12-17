@@ -1,0 +1,31 @@
+.container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-nav {
+    background-color: #fafafacc;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+.item-list {
+    margin-right: 70px;
+    list-style: none;
+}
+a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+    transition-duration: 1s;
+}
+a:hover {
+    color: #ee381b !important;
+}

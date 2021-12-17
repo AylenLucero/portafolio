@@ -1,0 +1,115 @@
+
+
+/* Titulo */
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    font-size: 2.5rem;
+    color: rgb(88, 88, 88)
+}
+.cargo {
+    color: #ee381b;
+    padding-bottom: 50px;
+}
+article {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+.sectionCV {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+    width: 80%;
+    border-radius: 10px;
+}
+.section1 {
+    background: linear-gradient(to bottom right, rgb(233, 233, 233) 50%, #ee371b9a);
+    width: 25%;
+    padding-top: 10px;
+    
+}
+.imgCV {
+    width: 70%;
+    padding-bottom: 10px;
+    filter: drop-shadow( 2px 2px 5px #ee371b41);
+}
+.tecnologias, .datos-personales, .Workshops, .idiomas, .personal, .academico, .laboral {
+    
+    padding-top: 20px;
+}
+.personal, .academico, .laboral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgTecnologias {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30px);
+    grid-gap: 50px;
+}
+.imgTecnologia {
+    width: 70px;
+    height: 70px;
+}
+.nameTecnologias {
+    text-align: center;
+    padding-top: 10px;
+}
+.section2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2 p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.sectionUnica {
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.sectionUnica:hover {
+    border-radius: 5px;
+    padding-left: 0;
+    color: rgb(88, 88, 88)
+}
+.sectionUnica p:hover {
+    text-shadow: 2px 2px 2px #ee371b49;
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1000px) {
+    .sectionCV {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1, .section2 {
+        width: 100%;
+    }
+    .imgCV {
+        width: 200px;
+    }
+  }
+
+  @media (max-width: 499px) {
+    article {
+        width: 100%;
+    }
+    .sectionCV {
+        display: flex;
+        flex-direction: column;
+    }
+    .section1, .section2 {
+        width: 100%;
+    }
+    .imgCV {
+        width: 200px;
+    }
+  }
