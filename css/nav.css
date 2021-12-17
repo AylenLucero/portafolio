@@ -10,6 +10,7 @@
     justify-content: flex-end;
     position: fixed;
     width: 100%;
+    z-index: 3;
 }
 ul {
     display: flex;

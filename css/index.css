@@ -17,6 +17,7 @@ article {
     justify-content: center;
     padding-top: 90px;
     margin-bottom: 100px;
+    color: rgb(88, 88, 88);
 }
 .sectionCV {
     display: flex;
@@ -36,6 +37,7 @@ article {
     width: 70%;
     padding-bottom: 10px;
     filter: drop-shadow( 2px 2px 5px #ee371b41);
+    z-index: 1;
 }
 .tecnologias, .datos-personales, .Workshops, .idiomas, .personal, .academico, .laboral {
     
@@ -55,6 +57,11 @@ article {
 .imgTecnologia {
     width: 70px;
     height: 70px;
+    border-radius: 10px;
+}
+.imgTecnologia:hover {
+    filter: brightness(0.9);
+    filter: drop-shadow(2px 2px 5px rgba(88, 88, 88, 0.76));
 }
 .nameTecnologias {
     text-align: center;
@@ -74,13 +81,9 @@ article {
     padding-bottom: 50px;
     padding-left: 20px;
 }
-.sectionUnica:hover {
-    border-radius: 5px;
-    padding-left: 0;
-    color: rgb(88, 88, 88)
-}
 .sectionUnica p:hover {
     text-shadow: 2px 2px 2px #ee371b49;
+    color: rgb(78, 78, 78)
 }
 
 
@@ -89,6 +92,7 @@ article {
     .sectionCV {
         display: flex;
         flex-direction: column;
+         width: 100%;
     }
     .section1, .section2 {
         width: 100%;
@@ -99,12 +103,11 @@ article {
   }
 
   @media (max-width: 499px) {
-    article {
-        width: 100%;
-    }
+    
     .sectionCV {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .section1, .section2 {
         width: 100%;

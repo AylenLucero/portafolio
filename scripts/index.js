@@ -7,6 +7,7 @@ const tecnologias= [
     'img/tecnologias/boot.jpg',
     'img/tecnologias/git.jpg',
     'img/tecnologias/github.jpg',
+    'img/tecnologias/next.jpg'
 ]
 
 const imgTecnologias=document.getElementById('imgTecnologia');

@@ -1,7 +1,16 @@
 /* PAGES */
-.section-proyectos {
+article {
     background: linear-gradient(to bottom right, rgb(233, 233, 233) 70%, #ee371b9a);
-    padding-top: 150px;
+}
+.portafolio {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    color: rgb(88, 88, 88);
+    text-shadow: 2px 2px 5px #ee371b3d;
+}
+.section-proyectos {
     padding-bottom: 36px;
     display: flex;
     justify-content: space-around;
