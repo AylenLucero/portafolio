@@ -27,3 +27,17 @@
         padding-bottom: 50px;
     }
   }
+
+  @media (max-width: 499px) {
+    .section-proyectos {
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+        padding-bottom: 50px;
+    }
+    .imgONG {
+        width: 300px;
+        height: 200px;
+    }
+  }
