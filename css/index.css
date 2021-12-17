@@ -94,7 +94,10 @@ article {
         flex-direction: column;
          width: 100%;
     }
-    .section1, .section2 {
+    .section1, .section2  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
     .imgCV {
@@ -110,6 +113,9 @@ article {
         width: 100%;
     }
     .section1, .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
     }
     .imgCV {
